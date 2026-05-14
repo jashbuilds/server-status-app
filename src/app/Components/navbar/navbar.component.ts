@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { ButtonComponent } from "../shared/button/button.component";
 
 @Component({
   selector: 'app-navbar',
-  imports: [],
+  imports: [ButtonComponent],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })
